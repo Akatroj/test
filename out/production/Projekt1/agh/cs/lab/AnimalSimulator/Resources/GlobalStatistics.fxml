@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<FlowPane fx:id="root" alignment="CENTER" columnHalignment="CENTER" orientation="VERTICAL" prefHeight="220.0" prefWidth="250.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="agh.cs.lab.AnimalSimulator.GUI.FXMLControllers.Map.Statistics.GlobalStatisticsController">
+    <children>
+        <Label text="Statystyki globalne" />
+        <HBox alignment="CENTER" prefWidth="250.0">
+            <children>
+                <Label alignment="CENTER_RIGHT" text="Dzień: " />
+                <Label fx:id="currentDay" alignment="CENTER_RIGHT" text="0" />
+            </children>
+        </HBox>
+        <HBox alignment="CENTER" prefWidth="250.0">
+            <children>
+                <Label alignment="CENTER_RIGHT" text="Liczba obecnie żywych zwierząt: " />
+                <Label fx:id="currentAnimalCount" alignment="CENTER_RIGHT" text="0" />
+            </children>
+        </HBox>
+        <HBox alignment="CENTER" prefWidth="250.0">
+            <children>
+                <Label alignment="CENTER_RIGHT" text="Liczba obecnie istniejacych roślin: " />
+                <Label fx:id="currentPlantCount" alignment="CENTER_RIGHT" text="0" />
+            </children>
+        </HBox>
+        <VBox alignment="CENTER" prefWidth="250.0">
+            <children>
+                <Label alignment="CENTER_RIGHT" text="Dominujący genotyp: " />
+                <Label fx:id="dominatingGenome" alignment="CENTER_RIGHT" />
+            </children>
+        </VBox>
+        <VBox alignment="CENTER" prefWidth="250.0">
+            <children>
+                <Label alignment="CENTER_RIGHT" text="Średni poziom energii żywych zwierząt: " />
+                <Label fx:id="meanEnergy" alignment="CENTER_RIGHT" text="0" />
+            </children>
+        </VBox>
+        <VBox alignment="CENTER" prefWidth="250.0">
+            <children>
+                <Label alignment="CENTER_RIGHT" text="Średnia długość życia martwych zwierząt: " />
+                <Label fx:id="meanLifeLength" alignment="CENTER_RIGHT" text="0" />
+            </children>
+        </VBox>
+        <VBox alignment="CENTER" prefWidth="250.0">
+            <children>
+                <Label alignment="CENTER_RIGHT" text="Średnia liczba dzieci żyjących zwierząt: " />
+                <Label fx:id="meanChildrenCount" alignment="CENTER_RIGHT" text="0" />
+            </children>
+        </VBox>
+    </children>
+
+</FlowPane>

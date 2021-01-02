@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="790.0" prefWidth="1020.0" styleClass="container" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" >
+   <children>
+      <fx:include fx:id="map1" layoutX="4.0" prefHeight="752.0" prefWidth="502.0" source="Map.fxml" />
+      <fx:include fx:id="map2" layoutX="514.0" prefHeight="752.0" prefWidth="502.0" source="Map.fxml" />
+      <Label layoutX="429.0" layoutY="14.0" text="Symulacja">
+         <font>
+            <Font name="Times New Roman" size="36.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

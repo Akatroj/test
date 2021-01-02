@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<FlowPane fx:id="root" alignment="CENTER" orientation="VERTICAL" prefHeight="150.0" prefWidth="250.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="agh.cs.lab.AnimalSimulator.GUI.FXMLControllers.Map.Statistics.PinnedAnimalStatisticsController">
+    <children>
+        <Label fx:id="topText" alignment="CENTER_RIGHT" text="Po zatrzymaniu symulacji kliknij na zwierzę, by je obserwować." wrapText="true" maxWidth="150.0"/>
+        <HBox>
+            <children>
+                <Label alignment="CENTER_RIGHT" />
+                <Label alignment="CENTER_RIGHT" text="Statystyki dla: " />
+                <Label fx:id="name" alignment="CENTER_RIGHT" />
+            </children>
+        </HBox>
+        <VBox>
+            <Label alignment="CENTER_RIGHT" text="Geny zwierzaka: " />
+            <Label fx:id="genome" alignment="CENTER_RIGHT" />
+        </VBox>
+        <HBox>
+            <children>
+                <Label alignment="CENTER_RIGHT" text="Liczba dzieci: " />
+                <Label fx:id="childrenCount" alignment="CENTER_RIGHT" text="0" />
+            </children>
+        </HBox>
+        <HBox>
+            <children>
+                <Label alignment="CENTER_RIGHT" text="Liczba potomków: " />
+                <Label fx:id="descendantsCount" alignment="CENTER_RIGHT" text="uhuhu" />
+            </children>
+        </HBox>
+        <HBox>
+            <children>
+                <Label alignment="CENTER_RIGHT" text="Stan: " />
+                <Label fx:id="status" alignment="CENTER_RIGHT" />
+            </children>
+        </HBox>
+    </children>
+</FlowPane>

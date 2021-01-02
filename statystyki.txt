@@ -1,0 +1,6 @@
+Statystyki po 4013 dniach:
+Średnia ilość żywych zwierząt w ciągu dnia: 114,34
+Średnia energia zwierząt w ciągu dnia: 153,53
+Średnia ilość roślin w ciągu dnia: 281,47
+Średni wiek śmierci zwierząt: 220,02
+Dominujący genotyp: 00000001111111111111222334445667, wystąpił 4014 razy.

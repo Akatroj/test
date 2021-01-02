@@ -1,0 +1,10 @@
+{
+  "mapWidth": 100,
+  "mapHeight": 100,
+  "startAnimalsCount": 100,
+  "startEnergy": 150,
+  "grassEnergy": 60,
+  "moveEnergy": 1,
+  "jungleRatio": 0.4,
+  "dayLength": 10
+}

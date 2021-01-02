@@ -1,0 +1,9 @@
+.container {
+    -fx-background-color: aliceblue;
+}
+
+.mapContainerOuter {
+    /* 1 pixel inside border around container */
+    -fx-background-color: black, aliceblue;
+    -fx-background-insets: 0, 1 1 1 1;
+}
